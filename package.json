@@ -57,7 +57,7 @@
     "lodash.debounce": "^4.0.8",
     "lsof": "^0.1.0",
     "merge-stream": "^1.0.0",
-    "multipipe": "^0.3.1",
+    "multipipe": "^1.0.2",
     "npm": "^3.10.6",
     "portfinder": "^1.0.7",
     "react": ">=15.3.0",
