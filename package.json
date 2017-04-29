@@ -40,7 +40,7 @@
     "gulp-load-plugins": "^1.2.4",
     "gulp-plumber": "^1.1.0",
     "gulp-process-env": "^0.0.2",
-    "gulp-progeny": "^0.3.1",
+    "gulp-progeny": "^0.4.0",
     "gulp-rename": "^1.2.2",
     "gulp-rev": "^7.1.2",
     "gulp-rev-css-url": "^0.1.0",
