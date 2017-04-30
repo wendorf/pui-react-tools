@@ -1,4 +1,4 @@
-const {extractCss, extractSass, noErrors} = require('./webpack.plugins.js');
+const {extractCss, extractSass, noEmitOnErrors} = require('./webpack.plugins.js');
 
 module.exports = {
   bail: false,
@@ -19,7 +19,7 @@ module.exports = {
     chunkFilename: '[id].js'
   },
   plugins: [
-    noErrors,
+    noEmitOnErrors,
     extractCss,
     extractSass
   ]

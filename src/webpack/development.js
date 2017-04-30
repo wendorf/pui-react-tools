@@ -1,5 +1,5 @@
 const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin');
-const {noErrors} = require('./webpack.plugins');
+const {noEmitOnErrors} = require('./webpack.plugins');
 
 const {assetHost, assetPort} = require('../assets/config');
 const publicPath = assetHost ? `//${assetHost}:${assetPort}/` : '/';
@@ -29,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HotModuleReplacementPlugin(),
-    noErrors
+    noEmitOnErrors
   ],
   watch: true
 };

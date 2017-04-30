@@ -1,4 +1,4 @@
-const {extractCss, extractSass, noErrors} = require('./webpack.plugins');
+const {extractCss, extractSass, noEmitOnErrors} = require('./webpack.plugins');
 
 module.exports = {
   cache: true,
@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   output: {filename: 'spec.js'},
-  plugins: [noErrors, extractCss, extractSass],
+  plugins: [noEmitOnErrors, extractCss, extractSass],
   quiet: true,
   watch: true
 };
